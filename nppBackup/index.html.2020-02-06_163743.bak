@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>
+	<style>
+		main{
+			display: grid;
+			grid-template-columns: 1fr 3fr 1fr;
+			grid-template-rows: 1fr 1fr 5fr 1fr;
+			height: 100vh;
+			grid-row-gap:5px;
+			grid-column-gap:5px;
+		}
+		main div:first-child{
+			background-color:#696969;
+		}
+		main div:nth-child(2){
+			background-color: #00ff00;
+			grid-column-start:2;
+			grid-column-end:4;
+		}
+		nav{
+			background-color: #3D9970;
+			grid-column-start:2;
+			grid-column-end: 4;
+		}
+		footer{
+			background-color: #ffa500;
+			grid-column-start: 1;
+			grid-column-end: 4; 
+		}
+		nav + section{
+			background-color: #708090 ;
+			display: grid;
+			
+			grid-row-start:2;
+			grid-row-end: 4;
+			
+		}
+		
+		nav + section div:nth-child(2){
+			background-color: #708090 ;
+		}
+		
+		}
+		body{
+			color: black;
+			margin: 0;
+			padding: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<div>MENU</div>
+		<div>ANIMATION</div>
+		<nav>Navigation</nav>
+		<section>
+			<div>INFORMATION UTILS</div>
+			
+		</section>
+		<section>
+			<div>Publicité</div>
+			
+		</section>
+		<section>
+			
+		</section>
+		<footer>Pied de page</footer>
+	</main>
+</body>
+</html>

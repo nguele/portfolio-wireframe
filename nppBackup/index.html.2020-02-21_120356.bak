@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>ZONING</title>
+		<link rel="stylesheet" href="assets/css/page.css" type="text/css" media="all"/>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div class="bx">
+					<div class="bx1">Menu Realisation</div>
+					<div class="bx2">Animation</div>
+				</div>
+			</header>
+			<section class="a">
+				<div class="a1">Information utile</div>
+				<div class="a2">Photo</div>
+				<div class="a3">A propos de moi</div>
+			</section>
+			<section class="b">
+				<div class="b1">Presentations</div>
+				<div class="b2">Parcours</div>
+				<div class="b3">Competences</div>
+			</section>
+			<section class="c">
+				<div> </div>
+			</section>
+		</main>
+	</body>
+</html>
+ 

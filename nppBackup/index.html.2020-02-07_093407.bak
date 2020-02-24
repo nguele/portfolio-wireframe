@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset=" UTF-8">
+		<title>PORTFOLIO</title>
+		<style>
+	main{
+	display:grid;		
+	background-color:#dda0dd;
+	height:100vh;
+	grid-template-columns: auto auto auto;
+	grid-template-rows:  auto auto auto auto;
+	}
+	main div.in:first-child{		
+	background-color:white ;
+
+	}
+	main div:nth-child(2){
+	background-color:red;
+	grid-column-start:2;
+	grid-column-end:5;
+	}
+	main div:nth-child(3){
+	background-color:green;
+	grid-row-start:2;
+	grid-row-end:4;
+	}
+	section{
+	display:grid;
+	background-color:blue;
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-template-column:auto auto auto;
+	grid-template-row: auto;
+	
+	}
+	section div:fist-child{
+	background-color:blue;
+	}
+	footer{
+	background-color:#ffd700;
+	grid-column-start:1;
+	grid-column-end:5;
+   }
+	</style>
+	</head>
+	<body>
+		<main>
+			<div class="me">MENUE</div>
+			<div class="an>ANIMATION</div>
+			<div>IMFORMATION</div>
+			<section>
+				<div>PHOTO</div>
+				<div>PROFIL</div>
+				<div>A PROPOS DE MOI</div>
+			</section>
+			<section>
+				<div>PRESENTATION</div>
+				<div>PARCOURS</div>
+				<div>COMPETENCE</div>
+			</section>
+			<footer>PIED DE PAGE</footer>
+		</main>
+	</body>
+</html>

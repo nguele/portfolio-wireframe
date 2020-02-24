@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset=" UTF-8">
+		<title> </title>
+		<style>
+		main{
+		display:grid;
+		grid:5px;
+		background:green;
+		padding:50px;
+		}
+		</style>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div>MENU</div>
+				<div>ANIMATION</div>
+			</header>
+			<div>IMFORMATION</div>
+			<section>
+				<div>PHOTO</div>
+				<div>PROFIL</div>
+				<div>A PROPOS DE MOI</div>
+			</section>
+			<section>
+				<div>PRESENTATION</div>
+				<div>PARCOURS</div>
+				<div>COMPETENCE</div>
+			</section>
+			<footer> PIED DE PAGE</footer>
+		</main>
+	</body>
+</html>

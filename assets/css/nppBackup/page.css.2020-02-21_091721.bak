@@ -1,0 +1,12 @@
+body{
+	background-color:#475F62;
+}
+.bx{
+	display:flex;
+}
+.bx1,.bx2{
+  color:blue;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}

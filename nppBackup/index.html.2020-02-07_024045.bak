@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset=" UTF-8">
+		<title> </title>
+		<style>
+		main{
+		display:grid;		
+		background:#dda0dd;
+		height:100vh;
+		grid-template-columns: 1fr 3fr;
+		grid-template-rows:  3fr 2fr;
+		}
+		main div:first-child{		
+		background:#a9a9a9;
+	
+		}
+		main div:nth-child(2){
+		background:red;
+		
+		main div:nth-child(3){
+			background-color: #AAAAAA;
+		
+		
+		</style>
+	</head>
+	<body>
+		<main>
+			<div>MENU</div>
+			<div>ANIMATION</div>
+			<div>IMFORMATION</div>
+			<section>
+				<div>PHOTO</div>
+				<div>PROFIL</div>
+				<div>A PROPOS DE MOI</div>
+			</section>
+			<section>
+				<div>PRESENTATION</div>
+				<div>PARCOURS</div>
+				<div>COMPETENCE</div>
+			</section>
+			<footer> PIED DE PAGE</footer>
+		</main>
+	</body>
+</html>

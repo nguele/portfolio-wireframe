@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset=" UTF-8">
+		<title> </title>
+		<style>
+		main{
+		display:grid;
+		grid-rows-gap:5px;
+		grid-columns-gap:5px;		
+		background:#f0ffff;
+		height:100vh;
+	
+		}
+		header div:first-child{		
+		background:#a9a9a9;
+		grid-template-rows: 5fr 1fr;
+		}
+		header div:nth-child(3){
+		background:#adff2f;
+		grid-column-start: 2;
+		grid-column-end: 5; 
+		}
+		</style>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div>MENU</div>
+				<div>ANIMATION</div>
+			</header>
+			<div>IMFORMATION</div>
+			<section>
+				<div>PHOTO</div>
+				<div>PROFIL</div>
+				<div>A PROPOS DE MOI</div>
+			</section>
+			<section>
+				<div>PRESENTATION</div>
+				<div>PARCOURS</div>
+				<div>COMPETENCE</div>
+			</section>
+			<footer> PIED DE PAGE</footer>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>portfolio</title>
+	<style>
+		main{
+			display: grid;
+			grid-template-columns: 1fr 3fr 1fr;
+			grid-template-rows: 1fr 1fr 5fr 1fr;
+			height: 100vh;
+			grid-row-gap:5px;
+		}
+		main div:first-child{
+			background-color:#696969;
+		}
+		main div:nth-child(2){
+			background-color: #00ff00;
+			grid-column-start:2;
+			grid-column-end:4;
+		}
+		nav{
+			background-color: #3D9970;
+			grid-column-start:2;
+			grid-column-end: 4;
+		}
+		footer{
+			background-color: #ffa500;
+			grid-column-start: 1;
+			grid-column-end: 4; 
+		}
+		nav + section{
+			background-color: #6B5B95;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows:2fr 3fr;
+
+		}
+		
+		nav + section div:nth-child(2){
+			background-color: #E15D44;
+		}
+		main section:nth-of-type(2){
+			background-color: #955251;
+			display: grid;
+			grid-template-columns: 1fr;
+
+		}
+		main section:nth-of-type(2) div:first-child{
+			background-color: #BC243C;
+		}
+		main section:nth-of-type(2) div:nth-child(2){
+			background-color: #98B4D4;
+		}
+		main section:nth-of-type(3){
+			background-color: #DD4124;
+			display: grid;
+			grid-template-columns: 1fr;
+			grid-template-rows: 3fr 2fr;
+		}
+		body{
+			color: black;
+			margin: 0;
+			padding: 0;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<div>MENU</div>
+		<div>Animation</div>
+		<nav>Navigation</nav>
+		<section>
+			<div>illeurs articles</div>
+			
+		</section>
+		<section>
+			<div>Publicité</div>
+			<div>Nouveautés</div>
+		</section>
+		<section>
+			<div>Evènements</div>
+			<div>Blogs</div>
+		</section>
+		<footer>Pied de page</footer>
+	</main>
+</body>
+</html>

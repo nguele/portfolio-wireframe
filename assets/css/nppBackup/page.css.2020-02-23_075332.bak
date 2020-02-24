@@ -1,0 +1,132 @@
+body{
+	background-color:#475F62;
+}
+.bx{
+	display:flex;
+	height:100px;	
+}
+.bx1,.bx2{
+  color:blue;
+  margin:5px;
+  font-size: 20px;
+}
+.bx1{
+  width:300px;
+  background-color:#FCAB0D;
+  color:black;
+  text-align:center;
+  
+}
+select{
+	background-color:#FCAB0D;
+	border:3px solid black;
+	padding:5px;
+	margin-top:5px;
+}
+.bx2{
+  width:1030px;
+  background-color:#66FF99;
+  color:black;
+}
+.a{
+	display:flex;
+	height:100px;
+}
+.a1,.a2,.a3{
+  color:black;
+  margin:5px;
+  text-align:left;
+  font-size: 20px;
+}
+.a1{
+  width:300px;
+  height:510px;
+  background-color:#999999;
+  color:#FFFFFF;
+}
+.a2{
+  width:400px;
+  height:300px;
+  background-color:#FFFFFF;
+  color:black;
+}
+.a3{
+  width:620px;
+  height:300px;
+  background-color:#FFFFFF;
+  color:black;
+}
+.b{
+  display:flex;
+  height:150px;
+  margin-left:310px;
+  margin-top:210px;
+}
+.b1,.b2,.b3{
+  color:black;
+  margin:5px;
+  text-align:left;
+  font-size: 20px;
+}
+.b1{
+  width:350px;
+  height:200px;
+  background-color:#993399;
+  color:white;
+}
+.b2{
+  width:350px;
+  height:200px;
+  background-color:#993399;
+  color:white;
+}
+.b3{
+  width:350px;
+  height:200px;
+  background-color:#993399;
+  color:white;
+}
+.c{
+  display:flex;
+  height:100px;
+  align-item:center;
+
+}
+.c1{
+  color:black;
+  margin:5px;
+  font-size: 20px;
+  width:1400px;
+  height:100px;
+  background-color:#CC9933;
+  color:white;
+  margin-top:65px;
+  align-item:center;
+  display:flex;
+}
+.c1{
+  background-image: url('microphone6.png');
+}
+img{
+  margin:10px
+}
+
+input[type=micro]{
+  background-image: url('microphone6.png');
+  background-repeat: no-repeat;
+  background-size:25px;
+  background-position:98%;
+  padding-right:5px;
+  border: 2px solid white;
+  background-color:#CC9933;
+  color:white;
+  width:350px; 
+  height:40px;
+  margin:25px;
+  margin-left:230px;
+}
+input[required placeholder=Google]{
+	color:white;
+}
+
+    

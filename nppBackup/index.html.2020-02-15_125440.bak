@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset=" UTF-8">
+		<title>PORTFOLIO</title>
+		<style>
+	main{
+	display:grid;		
+	background-color:#dda0dd;
+	height:100vh;
+	grid-template-columns: 1fr 3fr 2fr;
+	grid-template-rows:  1fr 3fr 2fr 1fr;
+	grid-gap:10px;
+	}
+	main div.me:first-child{		
+	background-color:gray;
+	grid-template-columns: 1fr;
+	grid-template-rows: 3fr 2fr;
+	
+	}
+	main div.an:nth-child(2){
+	background-color:green;
+	grid-column-start:2;
+	grid-column-end:5;
+	
+	}
+	main div.in:nth-child(3){
+	background-color:gray;
+	grid-row-start:2;
+	grid-row-end:4;
+	width:150px;
+	}
+	section{
+	display:grid;
+	background-color:#dda0dd;
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-template-columns: auto auto auto;
+	grid-gap:10px;
+	width:1500px;
+	}
+	
+	.ph{
+	grid-column-start: 1;
+   grid-column-end: 2;
+	background-color:white;
+	
+	}
+	.pr{
+	grid-column-start: 2;
+   grid-column-end: 3;
+	background-color:white;
+	}
+	.apm{
+	grid-column-start: 3;
+   grid-column-end: 4;
+	background-color:white;
+	}
+	
+	div.di{ 
+	display:grid;
+	background-color:#dda0dd;
+	grid-column-start:2;
+	grid-column-end:5;
+	grid-template-columns: auto auto auto;
+	grid-gap:10px;
+	}
+	
+	.pre{
+	grid-column-start: 1;
+   grid-column-end: 2;
+	background-color:blueviolet;
+	}
+	
+	.par{
+	grid-column-start: 2;
+   grid-column-end: 3;
+	background-color:blueviolet;
+	}
+	
+	.com{
+	grid-column-start: 3;
+   grid-column-end: 4;
+	background-color:blueviolet;
+	}
+	
+	footer{
+	background-color:orange;
+	grid-column-start:1;
+	grid-column-end:5;
+   }
+	</style>
+	</head>
+	<body>
+		<main>
+			<div class="me">MENUE</div>
+			<div class="an">ANIMATION</div>
+			<div class="in">IMFORMATION</div>
+			<section class="se">
+				<div class="ph">PHOTO</div>
+				<div class="pr">PROFIL</div>
+				<div class="apm">A PROPOS DE MOI</div>
+			</section>
+			<div class="di">
+				<div class="pre">PRESENTATION</div>
+				<div class="par">PARCOURS</div>
+				<div class="com">COMPETENCE</div>
+			</div
+			>
+			<footer>PIED DE PAGE</footer>
+		</main>
+	</body>
+</html>

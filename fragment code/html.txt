@@ -1,0 +1,17 @@
+<div class="center">
+        <p id="text">A propos de moi : 
+NGUELE Joyce est un jeune homme. Passionner par les 
+métiers Techniques. Il suit un enseignement technique après sa classe de troisième. 
+Comme filière il choisit, l'option maintenance Industrielle(M. I) dans laquelle il va retrouver 
+une spécialité qui le passionne depuis son jeune âge. 
+Après son bac il suit donc des études supérieures en électronique et informatique mais se 
+focalise plus du côté électronique. c'est à la fin de son apprentissage qu'il comprend
+ l'importance de l'informatique précisément dans le domaine du numérique et decide alors 
+de compléter sa formation. L'école 241 sera pour lui la solution car elle forme de manière 
+très intensive dans les métiers du numérique.
+</p>
+    </div>
+
+  <div class="mylink">
+    <a target="_blank" href="http://kenyzachelin.fr">Coded by Keny Zachelin</a>  
+  </div>

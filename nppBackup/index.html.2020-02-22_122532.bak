@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>ZONING</title>
+		<link rel="stylesheet" href="assets/css/page.css" type="text/css" media="all"/>
+	</head>
+	<body>
+		<main>
+			<header>
+				<div class="bx">
+					<div class="bx1">
+						<label for="diplome">Menu Realisations</label>
+						<select value="bac_3" name="diplôme" id="diplome" required="required" type="text">
+							<option value="formulaire">Formulaire</option>
+							<option value="integration">integration METEOJOB</option>
+							<option value="lettre">Lettre</option>
+							<option value="menu"selected>Menu Realisations</option>
+							<option value="emploi du temps">Emploi du temps</option>
+							<option value="liste">Liste de presence</option>
+							<option value="sudoku">Sudoku</option>
+						</select>
+					</div>
+					<div class="bx2">Animation</div>
+				</div>
+			</header>
+			<section class="a">
+				<div class="a1">Information utile</div>
+				<div class="a2">Photo</div>
+				<div class="a3">A propos de moi</div>
+			</section>
+			<section class="b">
+				<div class="b1">Presentations</div>
+				<div class="b2">Parcours</div>
+				<div class="b3">Competences</div>
+			</section>
+			<section class="c">
+				<div class="c1">
+					<img src="assets\logo\twiteer2.png" alt="twiteer" width="80" height="80">
+					<img src="assets\logo\facebook.png" alt="facebook" width="80" height="80">
+					<img src="assets\logo\google.png" alt="google" width="80" height="80">
+					<img src="assets\logo\whatsapp.png" alt="whatsapp" width="80" height="80">
+					<img src="assets\logo\amazone.png" alt="amazone" width="80" height="80">
+					<img src="assets\logo\youtube.png" alt="youtube" width="80" height="80">
+					<img src="assets\logo\wikipedia3.png" alt="wikipedia" width="80" height="80">
+					<label for="mdp"></label>
+					<input type="password" name="mdp" id="mdp" width="50px" required placeholder="Choisissez votre mot de passe">
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
+ 
