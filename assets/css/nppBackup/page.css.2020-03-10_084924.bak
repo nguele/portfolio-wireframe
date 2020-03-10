@@ -27,19 +27,6 @@ select{
   width:1030px;
   background-color:#66FF99;
   color:black;
-  display:flex;
-  animation-name: example;
-  animation-duration: 4s;
-  text-align:justify;
-  color:white;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example {
-   0%  {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
 }
 .a{
   display:flex;
@@ -130,15 +117,14 @@ select{
   display:flex;
   flex-direction:column;
   justify-content: flex-end;
-  
+  margin-left:-90px;
 }
 .b311{
   justify-content: flex-end;
-  margin-left:-80px;
+  margin-left:-90px;
   display:flex;
   flex-direction:column;
 }
-
 .c{
   display:flex;
   height:100px;

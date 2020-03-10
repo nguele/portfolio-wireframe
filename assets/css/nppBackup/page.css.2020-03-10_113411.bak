@@ -32,14 +32,12 @@ select{
   animation-duration: 4s;
   text-align:justify;
   color:white;
-  animation-iteration-count: infinite;
 }
 
 @keyframes example {
-   0%  {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+	 
+	from {background-color: red;}
+	to {background-color: yellow;}
 }
 .a{
   display:flex;

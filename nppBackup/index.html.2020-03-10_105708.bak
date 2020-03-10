@@ -24,7 +24,9 @@
 					</div>
 					<div class="bx2">
 						Animation
-						
+						<div class="animation"> 
+							BONJOUR 
+						</div>
 					</div>
 				</div>
 			</header>
@@ -72,7 +74,7 @@
 					<h5>Competences</h5>
 					<div class="b31">
 						<div class="b311">
-							HTML<input type="range" min="1" max="100" value="70">
+							<input type="range" min="1" max="100" value="70">
 							<input type="range" min="1" max="100" value="40">
 							<input type="range" min="1" max="100" value="10">
 							<input type="range" min="1" max="100" value="10">
